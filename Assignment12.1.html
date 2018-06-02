@@ -9,14 +9,14 @@
 </head>
 <body>
     <script>
-    function countReducer(actionType,counter)
+    function countReducer(actionType,counter)//creating the Function countReducer with 2 parameters
     {
-        if(actionType === "INC")
+        if(actionType === "INC") //When the actionType value is INC, then increase the counter value by 1
         {
             counter=counter+1;
         }
 
-        if(actionType === "DEC")
+        if(actionType === "DEC") //When the actionType value is DEC, then decrease the counter value by 1
         {
             counter=counter-1;
         }
